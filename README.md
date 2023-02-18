@@ -2,6 +2,8 @@
 SMS/EMAIL spam classifier using python and streamlit.
 sms spam classifier, used multinomial naive bayes
 
+**The entire working code file is in the main branch of this repo.**
+
 
 
 #1. **Data Cleaning**
