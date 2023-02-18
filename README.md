@@ -1,6 +1,9 @@
 # MP-sms-spam-classifier
 SMS/EMAIL spam classifier using python and streamlit.
 sms spam classifier, used multinomial naive bayes
+
+
+
 #1. **Data Cleaning**
 We analyzed the data set that we had downloaded from kaggle using pandas and numpy and dropped the columns that weren't contributing significantly and had inconsistency.
 There were basically two categories of sample texts in our data set, namely, "HAM" (not spam) and "SPAM".
@@ -28,14 +31,9 @@ Therefore, we used MNB.
 
 Then we used pickle to dump the vectorizer(tfidf) and the model(used MNB algorithm) to further locally deploy our spam classifier using streamlit.
 
+There were basically **4 steps** involved in the entire prediction process:
 
-
-
-
-
-
-
-1.Preprocess
+**1.Preprocess
 2.Vectorize
 3.Predict
-4.Display
+4.Display**
